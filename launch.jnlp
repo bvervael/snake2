@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Snake</title>
+        <vendor>Bert Vervaele</vendor>
+        <homepage href=""/>
+        <description>Snake</description>
+        <description kind="short">Snake</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Snake.jar" main="true"/>
+    </resources>
+    <application-desc main-class="snake.Snake">
+    </application-desc>
+</jnlp>
